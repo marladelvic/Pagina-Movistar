@@ -62,7 +62,7 @@ nav button {
   text-align: left;
   font-family: "Rubik Mono One";
   font-size: 20px;
-  font-weight: 800;
+  font-weight: 300;
 }
 
 .infoprincipal button {
@@ -89,6 +89,7 @@ nav button {
   text-align: center;
   font-size: 40px;
   font-family: "Rubik Mono One";
+  font-weight: 300;
 }
 
 .botonesservicios {
@@ -186,6 +187,7 @@ nav button {
   background: rgb(91,196,2);
   background-image: linear-gradient(90deg, rgba(91,196,2,1) 0%, rgba(0,157,244,1) 100%);  
   padding: 30px 190px 30px 190px;
+  font-weight: 300;
 }
 
 .imagenesservicios {
