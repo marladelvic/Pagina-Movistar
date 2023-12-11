@@ -8,6 +8,11 @@ body {
   height: 100vh;
   min-width: 1024px;
 }
+
+.icons i:hover {
+ color: #0d2639;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -31,6 +36,20 @@ nav button {
   border-radius: 8px;
   border: none;
   cursor: pointer;
+}
+
+nav button:hover {
+  background-color: #009df4;
+  font-weight: 900;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+nav p:hover {
+  text-decoration: underline;
 }
 
 .icons {
@@ -78,6 +97,19 @@ nav button {
   font-size: 25px;
 }
 
+.infoprincipal button:hover {
+  background-color: #ffffff;
+  margin-top: 50px;
+  font-weight: 900;
+  color: #0d2639;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-family: "Rubik";
+  font-size: 25px;
+}
+
 .seccion2 {
   background-color: #0d2639;
   padding-top: 100px;
@@ -102,6 +134,17 @@ nav button {
 
 .botonesservicios button {
   background-color: #009df4;
+  font-weight: 900;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-family: "Rubik"
+}
+
+.botonesservicios button:hover {
+  background-color: #5bc402;
   font-weight: 900;
   color: #ffffff;
   padding: 10px 20px;
@@ -148,6 +191,18 @@ nav button {
   font-family: "Rubik"
 }
 
+.fullplus button:hover {
+  background-color: #5bc402;
+  font-weight: 900;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-size: 25px;
+  font-family: "Rubik"
+}
+
 .movistarplus {
   width: 49vw;
   padding-right: 100px;
@@ -171,6 +226,18 @@ nav button {
   background-color: #ffffff;
   font-weight: 900;
   color: #0d2639;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-size: 25px;
+  font-family: "Rubik";
+}
+
+.movistarplus button:hover {
+  background-color: #5bc402;
+  font-weight: 900;
+  color: #ffffff;
   padding: 10px 20px;
   border-radius: 8px;
   border: none;
@@ -203,4 +270,8 @@ nav button {
   background-color: #0d2639;
   padding: 20px 160px 20px 160px;
   font-family: 'Rubik';
+}
+
+.seccion3 p:hover {
+  text-decoration: underline;
 }
