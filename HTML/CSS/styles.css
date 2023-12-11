@@ -1,0 +1,204 @@
+* {
+  padding: 0;
+  margin: 0;
+  color: #ffffff;
+}
+
+body {
+  height: 100vh;
+  min-width: 1024px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+  font-family: "Rubik";
+  background: #0d2639;
+}
+
+nav div {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+nav button {
+  background-color: #5bc402;
+  font-weight: 900;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.icons {
+  padding: 10px 0px;
+  background-color: #ffffff;
+  background-image: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(0, 157, 244, 1) 100%
+  );
+  display: flex;
+  justify-content: right;
+  gap: 20px;
+  padding-right: 20px;
+}
+
+.banner {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  margin: 0;
+  background-color: #0d2639;
+}
+
+.infoprincipal {
+  position: absolute;
+  top: 35%;
+  left: 10%;
+  text-align: left;
+  font-family: "Rubik Mono One";
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.infoprincipal button {
+  background-color: #009df4;
+  margin-top: 50px;
+  font-weight: 900;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-family: "Rubik";
+  font-size: 25px;
+}
+
+.seccion2 {
+  background-color: #0d2639;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.seccion2 h2 {
+  justify-content: center;
+  text-align: center;
+  font-size: 40px;
+  font-family: "Rubik Mono One";
+}
+
+.botonesservicios {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.botonesservicios button {
+  background-color: #009df4;
+  font-weight: 900;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-family: "Rubik"
+}
+
+.infoservicios {
+  display: flex;
+  text-align: center;
+  padding: 20px 20px 20px 20px;
+}
+
+.fullplus {
+  width: 49vw;
+  padding-left: 100px;
+}
+
+.fullplus h1 {
+  font-family: 'Rubik Mono One';
+  font-weight: 500;
+  margin: 10px;
+}
+
+.fullplus p {
+  padding-left: 50px;
+  padding-right: 50px;
+  font-family: 'Rubik';
+  font-size: 20px;
+  margin: 47px;
+}
+
+.fullplus button {
+  background-color: #ffffff;
+  font-weight: 900;
+  color: #0d2639;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-size: 25px;
+  font-family: "Rubik"
+}
+
+.movistarplus {
+  width: 49vw;
+  padding-right: 100px;
+}
+
+.movistarplus h1 {
+  font-family: 'Rubik Mono One';
+  font-weight: 500;
+  margin: 10px;
+}
+
+.movistarplus p {
+  padding-left: 50px;
+  padding-right: 50px;
+  font-family: 'Rubik';
+  font-size: 20px;
+  margin: 60px;
+}
+
+.movistarplus button {
+  background-color: #ffffff;
+  font-weight: 900;
+  color: #0d2639;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-size: 25px;
+  font-family: "Rubik";
+}
+
+.seccion3 h2 {
+  justify-content: center;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Rubik Mono One";
+  background: rgb(91,196,2);
+  background-image: linear-gradient(90deg, rgba(91,196,2,1) 0%, rgba(0,157,244,1) 100%);  
+  padding: 30px 190px 30px 190px;
+}
+
+.imagenesservicios {
+  padding: 0;
+  margin: 0;
+  background-color: #0d2639;
+}
+
+.solicitud {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  background-color: #0d2639;
+  padding: 20px 160px 20px 160px;
+  font-family: 'Rubik';
+}
