@@ -11,6 +11,7 @@ body {
 
 .icons i:hover {
  color: #0d2639;
+ cursor: pointer;
 }
 
 nav {
@@ -50,6 +51,15 @@ nav button:hover {
 
 nav p:hover {
   text-decoration: underline;
+  cursor: pointer;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.logo:hover {
+  color: #5bc402;
 }
 
 .icons {
@@ -265,13 +275,14 @@ nav p:hover {
 
 .solicitud {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-direction: row;
   background-color: #0d2639;
-  padding: 20px 160px 20px 160px;
+  padding: 20px;
   font-family: 'Rubik';
 }
 
 .seccion3 p:hover {
   text-decoration: underline;
+  cursor: pointer;
 }
